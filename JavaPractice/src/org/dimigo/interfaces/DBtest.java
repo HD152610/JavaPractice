@@ -30,6 +30,7 @@ public class DBtest {
 		crud(database[1]);
 	}
 	
+	
 	public static void crud(IDBManager db){
 		db.insert();
 		db.search();
