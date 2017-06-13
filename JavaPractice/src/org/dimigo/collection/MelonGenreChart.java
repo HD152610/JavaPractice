@@ -57,11 +57,13 @@ public class MelonGenreChart {
 		for(String key : map.keySet()) {
 			System.out.println("[" + key + "]");
 			int i = 1;
+			
 			for(Music s : map.get(key)) {
 				System.out.println(i++ + "." + s.toString());
 			}
 		}
 		System.out.println();
 	}
+	
 
 }
